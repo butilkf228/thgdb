@@ -1,0 +1,41 @@
+.object {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    left: 10%;
+    top: 80%;    
+    animation: cube 2500ms linear infinite normal 250ms;
+    background-color: blue;
+}
+
+.box {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes cube {
+    25% {
+        top: 80%;
+        left: 80%;
+        background-color: green;
+    }
+    50% {
+        left: 80%;
+        top: 10%;
+        background-color: yellow;
+    }
+    75% {
+        top: 10%;
+        left: 10%;
+        background-color: red;
+    }
+    100% {
+        left: 10%;
+        top: 80%;
+        background-color: blue;
+    }
+}
+
